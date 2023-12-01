@@ -44,7 +44,7 @@ Bash scripts are essentially a series of commands and instructions that are exec
 
   ![forstatement](./img/3.forloop.png)
 
-  The script above prints numbers from 1 to 5, after each printing  each number the variable increases by 1
+  The script above prints numbers from 1 to 7, after each printing  each number the variable increases by 1
 
   ![forstatement](./img/3.forloopoutput.png)
 
@@ -65,10 +65,10 @@ The image shows the command substitution using backtick and  $() to display date
 The read command is used to accept user input and output text to the console using the echo command.
 
  Input and output can be redirected using operators like:
-  - > (output to a file) 
-  - < (input from a file) 
+  - ** > **(output to a file) 
+  - ** < ** (input from a file) 
 
-  - |  (pipe the output of one command as input to another)
+  - ** | ** (pipe the output of one command as input to another)
 
 ![InputOutput](./img/5.inputandoutput.png)
 
