@@ -65,10 +65,10 @@ The image shows the command substitution using backtick and  $() to display date
 The read command is used to accept user input and output text to the console using the echo command.
 
  Input and output can be redirected using operators like:
-  - ** > **(output to a file) 
-  - ** < ** (input from a file) 
+  - **>**(output to a file) 
+  - **<** (input from a file) 
 
-  - ** | ** (pipe the output of one command as input to another)
+  - **|** (pipe the output of one command as input to another)
 
 ![InputOutput](./img/5.inputandoutput.png)
 
@@ -96,18 +96,19 @@ The image above shows the  output, when the function is called with greet is cal
 
 ### Creating a Shell Script
 
-- A folder was created using the mkdir command
+- A folder is created using the mkdir command
 - a file called user-input.sh was created using the touch user-input.sh command
-- The script is written with the  and saved. Note the **#!/bin/bash** in the code, it helps to specify the type of bash interpreter to be used to same the script.
+- The script is written and saved. Note the **#!/bin/bash** in the code(in the image) below, it helps to specify the type of bash interpreter to be used to execute the script.
 - To make the file executable we use the chmod +x user-input.sh command
 
-- To run the script we use the./user-input.sh command
+- To run the script we use the ./user-input.sh command
 
 ![InputOutput](./img/6.outouptfirstscript.png)
 
-This image  above shows the the script file.
+This image  above shows the the script file that allows a user enter name and output name with a message.
 
 ![InputOutput](./img/6.createfirstscript.png)
+
 The image above shows the steps used to create a simple script.
 
 The image shows the output of the script file when the file is executed. It also shows the steips in creating and executing the script file
