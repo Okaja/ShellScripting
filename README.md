@@ -4,17 +4,18 @@
 Shell Scripting is a text file with a list of command that instructs an operating system to perform certain tasks. 
 It can also be defined as a way to automate task in Linux.  ShellScripting allows a user with permission to perform daily task efficiently and even schedule them for automatic execution.
 
-Bash scripts are essentially a series of commands and instructions that are executed sequentially in a shell. A create shell script by saving a collection of commands in a text file with a .sh extension.
+Bash scripts are essentially a series of commands and instructions that are executed sequentially in a shell. 
 
 ### Syntax:
+- A  shell script is created by saving a collection of commands in a text file with a .sh extension.
 
-  - chmod +x read.sh : The chmod command is also used to make the text file  an executable. 
+  - chmod +x read.sh : The chmod command is used to make the text file executable. 
 
   
-  - To execute a script file, we the command ./read.sh
-- Note read.sh is the file name
+  - To execute a script file, The command ./read.sh is used
+- Note that read.sh is the file name
 
-  In this project we would be discussing  some Shell Scripting Syntax Elements such as variables, control flow, command substitution, input and output, functions, directory manipulation and File Backup and Timestamping
+  In this project we would be discussing  some Shell Scripting elements such as variables, control flow, command substitution, input and output, functions, directory manipulation and File Backup and Timestamping
 
   ## Variables:
    In Bash variables are used to store data.  You can assign values to variables using the  = operator, and access their values using the variable name preceeded by a $ sign.
